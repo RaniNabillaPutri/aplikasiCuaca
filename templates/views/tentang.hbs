@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang</title>
+    <link rel="icon" href="/img/cuaca.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <div class="main-content">
+            <div class="profile-section">
+                <img class="profile" src="/img/profil.png" alt="Foto Profil">
+                <h2>Rani Nabilla Putri</h2>
+            </div>
+            <div class="biodata-pendidikan">
+                <h2>BIODATA</h2>
+                <ul>
+                    <li>Nama: Rani Nabilla Putri</li>
+                    <li>TTL: Padang, 26 Februari 2003</li>
+                    <li>Alamat: Kurao Pagang, Nanggalo, Padang</li>
+                    <li>Skill: MySQL, Python, C++, PHP, HTML, CSS</li>
+                    <li>Hobi: Desain Grafis, Menulis, Menggambar</li>
+                </ul>
+            </div>
+            <div class="keterampilan">
+                <h2>PENDIDIKAN</h2>
+                <ul>
+                    <li><b>PERGURUAN TINGGI</b></li>
+                    <li>S1 - Informatika</li>
+                    <li><b>SEKOLAH</b></li>
+                    <li>SMKN 2 Padang - TKJ (2018-2021)</li>
+                    <li>MTsN 6 Model Padang (2015-2018)</li>
+                    <li>SDN 06 Kp.Lapai (2009 - 2015)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact-info"> <!-- Bagian media sosial -->
+            <a href="https://www.instagram.com/raninabillaa/">
+                <img src="/img/instagram.png" width="14px"> @raninabillaa
+            </a>
+            <a href="mailto:raninabilla@student.unp.ac.id">
+                <img src="/img/email.png" width="14px"> raninabilla@student.unp.ac.id
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=6283174051718">
+                <img src="/img/wa.png" width="14px"> 083174051718
+            </a>
+        </div>
+    {{>footer}}
+</body>
+</html>

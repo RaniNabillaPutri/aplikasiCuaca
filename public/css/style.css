@@ -1,0 +1,226 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-image: url('/img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: navy;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-content {
+    background-color: #ffffff80;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.biodata-pendidikan, .keterampilan {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: navy;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Gaya media sosial */
+.contact-info {
+    text-align: center;
+}
+
+.contact-info a {
+    color: navy;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.biodata-pendidikan h2, .keterampilan h2 {
+    font-size: 18px;
+    color: navy;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Menyesuaikan margin atas sesuai kebutuhan */
+}
+
+form input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #377cd6;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.profile {
+    width: 150px;
+    margin-right: 25px;
+    border: 3px solid whitesmoke;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.main-content-tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #377cd6; /* Warna teks footer */
+    margin-top: 16px;
+    padding: 16px 0;
+    font-family: 'Sans-Serif' bold;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #ffffff; /* Warna teks link saat digulir */
+}
+
+header {
+    text-align: center;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: navy;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+header a {
+    color: #377cd6; /* Warna teks link header */
+    margin-right: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: navy; /* Warna teks link saat digulir */
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    width: 300px;
+    border: 2px solid #377cd6;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: 0px solid #cccccc;
+    background: navy;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}

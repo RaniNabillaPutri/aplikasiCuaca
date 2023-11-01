@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Bantuan</title>
+    <link rel="icon" href="/img/cuaca.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>{{teksBantuan}}</p>
+        <div class="isian-bawah">
+            <div class="biodata-pendidikan">
+                <h2>Halaman ini digunakan untuk apa?</h2>
+                <p>
+                    Anda dapat mengecek info cuaca dari wilayah mana saja
+                    yang anda inginkan. Masukkan lokasi, lalu klik tombol
+                    "Cari Lokasi", maka info cuaca dari lokasi yang Anda
+                    inginkan akan muncul.
+                </p>
+                <h2>Apa itu API?</h2>
+                <p>
+                    API, atau Application Programming Interface, adalah 
+                    seperangkat aturan dan protokol yang memungkinkan 
+                    berbagai perangkat lunak atau aplikasi untuk berkomunikasi 
+                    satu sama lain. Ini adalah antarmuka yang memungkinkan 
+                    pengembang untuk mengakses dan menggunakan fitur atau data 
+                    dari aplikasi, layanan, atau platform lain.
+                </p>
+                <p>
+                    API memungkinkan aplikasi atau perangkat lunak yang berbeda 
+                    untuk saling berinteraksi dan berbagi informasi tanpa harus 
+                    mengetahui rincian internal satu sama lain. Dalam konteks 
+                    pengembangan perangkat lunak, API adalah cara untuk 
+                    mengintegrasikan berbagai komponen perangkat lunak, layanan 
+                    web, atau sistem agar dapat bekerja bersama.
+                </p>
+                <div class="image-container">
+                </div>
+                <p>
+                    Terdapat beberapa jenis API seperti Public API, Private API, dan Partner API. API
+                    juga memiliki manfaat dalam memudahkan pembuatan aplikasi fungsional, meningkatkan
+                    efisiensi waktu, fleksibilitas, dan menghemat biaya. Contoh API yang terkenal antara
+                    lain Google API, Facebook API, dan Amazon API Gateway. Dalam penggunaannya, API
+                    dapat melakukan request ke server dan memberikan response berupa data yang diminta.
+                </p>
+                <h2>API apa yang digunakan pada aplikasi ini?</h2>
+                <div class="image-container">
+                </div>
+                <p>
+                    Aplikasi ini menggunakan API Weatherstack, yang menyediakan informasi cuaca real-time, 
+                    historis, dan ramalan cuaca untuk berbagai lokasi di seluruh dunia. Weatherstack 
+                    memiliki data cuaca yang luas untuk hampir seluruh planet dan menawarkannya dengan 
+                    harga terjangkau kepada berbagai jenis pengguna, termasuk perusahaan besar, pengembang, 
+                    pekerja lepas, dan individu. API Weatherstack telah menjadi salah satu penyedia data 
+                    cuaca REST API yang paling populer di pasaran karena kemudahan penggunaan dan konsistensi 
+                    data yang ditawarkannya.
+                </p>
+                <h2>Salah satu pola arsitektur API adalah RESTful, apa itu?</h2>
+                <div class="image-container">
+                </div>
+                <p>
+                    RESTful, atau Representational State Transfer, adalah sebuah gaya arsitektur perangkat 
+                    lunak yang digunakan untuk merancang sistem web yang efisien, terukur, dan skalabel. 
+                    Prinsip-prinsip RESTful menawarkan panduan tentang cara merancang aplikasi web yang 
+                    menggunakan HTTP dengan benar.
+                </p>
+            </div>
+        </div>
+        {{>footer}}
+</body>
+
+</html>
